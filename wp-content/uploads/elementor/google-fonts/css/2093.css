@@ -1,0 +1,147 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+Ver además estilos cargados en el personalizador de la plantilla
+End of comment */ 
+html, body {
+	overflow-x: hidden;
+}
+.titulo {
+	font-size:4.5em;
+}
+
+#fijado  {
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+	width:150px;
+	z-index: 120;
+}
+.blanco {
+	color: white;
+}
+
+.secundario {
+	color: var(--e-global-color-secondary);
+}
+
+.negrita{
+	font-weight: bolder;
+}
+
+.italica{
+	font-style: italic;
+}
+
+.subtitulo {
+	font-size:3rem;
+}
+
+.light {
+	font-weight:100;
+}
+
+
+#menu-secciones ul {
+	display: block;
+}
+#menu-servicios .elementor-nav-menu--main .elementor-item {
+	border-left: 3px solid white;
+	padding-left: 3px;
+	margin-bottom:2px;
+}
+
+.elementor-nav-menu--main .elementor-item.elementor-item-active {
+	border-left: 3px solid var( --e-global-color-secondary )!important;
+
+}
+
+.hablemos{
+	z-index: 9999999999;
+}
+
+#frm-hablemos .elementor-widget-container{
+	border-radius: 5px;
+}
+
+.see-more .elementor-tab-title {
+	width: 110px;
+	background-color: transparent;
+  background-image: linear-gradient(280deg, #CE61C7 0%, #f2295b 83%)!important;
+	border-radius:5px;
+} 
+
+.see-more .elementor-toggle-item {
+	box-shadow: none!important;
+}
+
+.cases .titulo{
+		font-size:2.5rem!important;
+	}
+	.cases .subtitulo{
+		font-size:1.5rem!important;
+	}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px){
+	#menu-secciones ul {
+	  display: flex;
+  }
+	.titulo{
+		font-size:3rem;
+	}
+	.subtitulo{
+		font-size:2.5rem;
+	}
+
+	body.admin-bar .dialog-type-lightbox {
+		position: fixed; 
+	}
+}
+@media screen and (max-width: 767px){
+	 .titulo{
+		font-size:2rem;
+	}
+	 .subtitulo{
+		font-size:1.5rem;
+	}
+
+	.elementor-724 .elementor-element.elementor-element-596c1ac6 {
+			margin-top: 0!important; 
+	}
+}
+
+a {
+	color: #00FFFF;
+}
+a:hover {
+	color: #CF1616;
+}
+.video-wrap .elementor-widget-container {
+position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.video-wrap .elementor-widget-container iframe {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+
+}
+@media screen and (max-width: 487px){
+	.cases .titulo{
+		font-size:1rem!important;
+	}
+	.cases .subtitulo{
+		font-size:1rem!important;
+	}
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

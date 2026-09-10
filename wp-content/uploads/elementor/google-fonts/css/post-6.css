@@ -1,0 +1,42 @@
+.elementor-kit-6{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#00FFFF;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-5a824cd:#1A1A1A;--e-global-color-063c971:#FFFFFF;--e-global-typography-primary-font-family:"Neris";--e-global-typography-primary-font-weight:bold;--e-global-typography-secondary-font-family:"Monserrat Medium";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-6 e-page-transition{background-color:#FFBC7D;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-inline-end:0px;padding-inline-start:0px;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Neris';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-Light.woff2') format('woff2'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-Light.woff') format('woff'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-Light.ttf') format('truetype'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-Light.svg#Neris') format('svg');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBold.woff2') format('woff2'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBold.woff') format('woff'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBold.ttf') format('truetype'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBold.svg#Neris') format('svg');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBoldItalic.woff2') format('woff2'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBoldItalic.woff') format('woff'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBoldItalic.ttf') format('truetype'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Neris-SemiBoldItalic.svg#Neris') format('svg');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Monserrat Medium';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://www.soft-express.com/wp-content/uploads/2022/10/Montserrat-Medium.woff2') format('woff2'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Montserrat-Medium.woff') format('woff'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Montserrat-Medium.ttf') format('truetype'),
+		url('https://www.soft-express.com/wp-content/uploads/2022/10/Montserrat-Medium.svg#MonserratMedium') format('svg');
+}
+/* End Custom Fonts CSS */
